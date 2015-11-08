@@ -1,13 +1,11 @@
 var Nes = require('nes');
-console.log(process.env.PORT)
+// console.log(process.env.PORT)
 var server = 'ws://localhost:' + process.env.PORT;
 var client = new Nes.Client(server);
 client.connect(function (err) {
-  console.log(' - - - - - - - - - - - - - - - - - - - - - - ');
-  console.log(err);
-  console.log(' - - - - - - - - - - - - - - - - - - - - - - ');
-    client.request('hello', function (err, payload) {   // Can also request '/h'
-    console.log(err, payload);
-        // payload -> 'world!'
-    });
+  client.request('hello', function (err, payload) {   // Can also request '/h'
+    console.log(' - - - - - - - - - - - - - - - - - payload:');
+    console.log(payload);
+    console.log(' - - - - - - - - - - - - - - - - - - - - - - ');
+  });
 });
