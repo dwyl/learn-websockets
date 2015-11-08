@@ -1,6 +1,24 @@
-# learn-websockets
+# Learn WebSockets
 
 Learn how to use WebSockets to create real-time apps.
+
+## Why?
+
+Instant feedback in your apps.
+
+## What?
+
+WebSockets allows you to build web/mobile applications where
+data can be sent between client/server in a much more
+*efficient* way than "*traditional*" HTTP. When a client
+connects to the WebSocket-enabled server it can send and receive
+messages with *minimal* overhead. *Crucially* where HTTP
+is a (stateless) request-response protocol, WebSockets
+allow the client to ***subscribe*** to a stream of data,
+which means that updates can be receive after the initial
+response. This makes WebSockets *perfect* for building ***Real-Time Apps***!
+
+# *How* ?
 
 ## Hapi*NES*
 
