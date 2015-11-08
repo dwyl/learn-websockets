@@ -51,3 +51,17 @@ PORT=8000 node nes/pubsub-server.js
 ```sh
 PORT=8000 node nes/pubsub-client.js
 ```
+
+### Publish Subscribe with Auth-based Filter
+
+Same again, ***2 terminal windows*** (*note: have them both ready at the same time...*)
+
+1. Boot the server:
+```sh
+PORT=8000 node nes/sub-filter-server.js
+```
+
+2. Then run the client :
+```sh
+PORT=8000 node nes/sub-filter-client.js
+```
