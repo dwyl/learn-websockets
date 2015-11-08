@@ -1,6 +1,5 @@
 var Hapi = require('hapi');
 var Nes = require('nes');
-process.env.PORT = 8000;
 
 var server = new Hapi.Server();
 server.connection({
