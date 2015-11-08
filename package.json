@@ -1,0 +1,32 @@
+{
+  "name": "learn-websockets",
+  "version": "1.0.0",
+  "description": "Learn the basiscs of using websockets to build real-time apps",
+  "main": "index.js",
+  "dependencies": {
+    "hapi": "^11.1.0",
+    "nes": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/learn-websockets.git"
+  },
+  "keywords": [
+    "learn",
+    "websockets",
+    "tutorial",
+    "socket.io",
+    "nes",
+    "how-to"
+  ],
+  "author": "nelsonic & friends",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nelsonic/learn-websockets/issues"
+  },
+  "homepage": "https://github.com/nelsonic/learn-websockets#readme"
+}
