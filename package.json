@@ -4,7 +4,9 @@
   "description": "Learn the basiscs of using websockets to build real-time apps",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^0.8.5",
     "hapi": "^11.1.0",
+    "hapi-auth-basic": "^4.0.0",
     "nes": "^1.2.0"
   },
   "devDependencies": {},
