@@ -76,4 +76,14 @@ Sadly, no.
 http://caniuse.com/#feat=websockets
 <img width="1181" alt="caniuse-websockets" src="https://cloud.githubusercontent.com/assets/194400/11025872/3d21e5c8-8699-11e5-9860-fc1a2c0179fb.png">
 
-Sadly
+### Can we *ignore* Opera Mini...?
+
+Apparently not... **Opera Mini** accounts for almost ***5%*** of
+the market!
+
+http://caniuse.com/usage-table
+![caniuse-stats](https://cloud.githubusercontent.com/assets/194400/11025955/a1f0fcb8-869a-11e5-8f5e-774d344fc1fd.png)
+
+More detailed trend: https://www.netmarketshare.com/browser-market-share.aspx?qprid=1&qpcustomb=1
+![mobile-stats-opera-mini](https://cloud.githubusercontent.com/assets/194400/11025957/a34837f2-869a-11e5-9cea-298c3a470ca8.png)
+> Where are all the Opera Mini users? http://raddevon.com/articles/where-are-opera-mini-users
