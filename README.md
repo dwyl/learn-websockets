@@ -18,6 +18,7 @@ allow the client to ***subscribe*** to a stream of data,
 which means that updates can be receive after the initial
 response. This makes WebSockets *perfect* for building ***Real-Time Apps***!
 
+
 # *How* ?
 
 ## Hapi*NES*
@@ -65,3 +66,14 @@ PORT=8000 node nes/sub-filter-server.js
 ```sh
 PORT=8000 node nes/sub-filter-client.js
 ```
+
+
+## FAQ
+
+### Can we use WebSockets *Every where*?
+
+Sadly, no.
+http://caniuse.com/#feat=websockets
+<img width="1181" alt="caniuse-websockets" src="https://cloud.githubusercontent.com/assets/194400/11025872/3d21e5c8-8699-11e5-9860-fc1a2c0179fb.png">
+
+Sadly
