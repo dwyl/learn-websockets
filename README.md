@@ -4,69 +4,34 @@ Learn how to use WebSockets to create real-time apps.
 
 ## Why?
 
-Instant feedback in your apps.
+***Instant feedback*** in your apps!
+
 
 ## What?
 
-WebSockets allows you to build web/mobile applications where
-data can be sent between client/server in a much more
-*efficient* way than "*traditional*" HTTP. When a client
-connects to the WebSocket-enabled server it can send and receive
-messages with *minimal* overhead. *Crucially* where HTTP
-is a (stateless) request-response protocol, WebSockets
-allow the client to ***subscribe*** to a stream of data,
+> "_**WebSocket** is a computer communications **protocol**, 
+providing **full-duplex communication** channels 
+over a **single TCP connection**._"
+
+WebSockets allow us to build web/mobile applications where
+data can be sent between client (browser/app) and web server 
+in a much more _efficient_ way than "_traditional_" HTTP. 
+When a client connects to the WebSocket-enabled server 
+it can send and receive messages with *minimal* overhead. 
+_Crucially_ where HTTP is a (stateless) request-response protocol, 
+WebSockets allow the client to ***subscribe*** to a stream of data,
 which means that updates can be receive after the initial
-response. This makes WebSockets *perfect* for building ***Real-Time Apps***!
+response. This makes WebSockets _perfect_ for building ***Real-Time Apps***!
 
 
-# *How* ?
-
-## Hapi*NES*
-
-To run the examples you will need ***two terminal windows***
-(*one to run the server.js and the other for client.js*)
-
-### Simple Connection to Server
-
-In the first terminal window, boot the server:
-```sh
-PORT=8000 node nes/server.js
-```
-
-Then in the second window run the client:
-```sh
-PORT=8000 node nes/client.js
-```
+## *How* ?
 
 
-### Publish Subscribe
 
-Same again, ***2 terminal windows*** (*note: have them both ready at the same time...*)
+## Background Reading
 
-1. Boot the server:
-```sh
-PORT=8000 node nes/pubsub-server.js
-```
-
-2. Then run the client :
-```sh
-PORT=8000 node nes/pubsub-client.js
-```
-
-### Publish Subscribe with Auth-based Filter
-
-Same again, ***2 terminal windows*** (*note: have them both ready at the same time...*)
-
-1. Boot the server:
-```sh
-PORT=8000 node nes/sub-filter-server.js
-```
-
-2. Then run the client :
-```sh
-PORT=8000 node nes/sub-filter-client.js
-```
-
++ Wikipedia article: https://en.wikipedia.org/wiki/WebSocket 
+(_a bit text-heavy but good history lesson._)
 
 ## FAQ
 
