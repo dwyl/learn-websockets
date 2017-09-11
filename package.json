@@ -15,20 +15,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nelsonic/learn-websockets.git"
+    "url": "git+https://github.com/dwyl/learn-websockets.git"
   },
   "keywords": [
     "learn",
     "websockets",
     "tutorial",
     "socket.io",
-    "nes",
     "how-to"
   ],
-  "author": "nelsonic & friends",
+  "author": "dwyl & friends",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/nelsonic/learn-websockets/issues"
+    "url": "https://github.com/dwyl/learn-websockets/issues"
   },
-  "homepage": "https://github.com/nelsonic/learn-websockets#readme"
+  "homepage": "https://github.com/dwyl/learn-websockets#readme"
 }
